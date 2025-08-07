@@ -1,0 +1,12 @@
+pages:
+  image: alpine:latest
+  stage: deploy
+  script:
+    - mkdir -p public
+    - cp -r index.html styles.css app.js data.js manifest.webmanifest service-worker.js favicon.svg README.md public/
+  artifacts:
+    paths:
+      - public
+  only:
+    - main
+    - master
