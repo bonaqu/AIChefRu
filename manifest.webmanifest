@@ -1,0 +1,13 @@
+{
+  "name": "EasyChefAI RU",
+  "short_name": "EasyChefAI",
+  "lang": "ru",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#0ea5e9",
+  "background_color": "#0b0c10",
+  "description": "Русскоязычное веб‑приложение с ИИ для генерации рецептов из ваших ингредиентов.",
+  "icons": [
+    { "src": "favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
